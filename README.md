@@ -488,6 +488,8 @@ You may want to disable this option because trusted members do not include membe
 
 * `Checkout over SSH` - [Not Recommended] Use this mode to checkout over SSH. Use `Checkout Credentials` instead.
 
+* `CommitSkipTrait` - Use this to skip build when commit contains either `[skip ci]` or `[ci skip]`.
+
 ## Environment Variables
 
 By default Multibranch Jobs have the following environment variables (provided by Branch API Plugin):
